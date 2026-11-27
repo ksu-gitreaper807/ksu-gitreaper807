@@ -2,16 +2,6 @@
   <title id="title">Kushal Gowda S current project tracker</title>
   <desc id="desc">A colorful terminal-inspired dashboard tracking WAS'NRT, 3rd Sem EL, Tide Terminal, HALO DSSB, and FFmpeg contributions.</desc>
   <defs>
-    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
-      <stop offset="0" stop-color="#08111f"/>
-      <stop offset="0.55" stop-color="#0d1628"/>
-      <stop offset="1" stop-color="#12182c"/>
-    </linearGradient>
-    <linearGradient id="titleGlow" x1="0" y1="0" x2="1" y2="0">
-      <stop offset="0" stop-color="#67e8f9"/>
-      <stop offset="0.52" stop-color="#c084fc"/>
-      <stop offset="1" stop-color="#fb7185"/>
-    </linearGradient>
     <filter id="shadow" x="-20%" y="-20%" width="140%" height="140%">
       <feDropShadow dx="0" dy="9" stdDeviation="12" flood-color="#020617" flood-opacity="0.48"/>
     </filter>
@@ -26,20 +16,20 @@
     </style>
   </defs>
 
-  <rect width="1000" height="1040" rx="30" fill="url(#bg)"/>
-  <path d="M30 118H970" stroke="#26334c" stroke-width="2"/>
-  <circle cx="50" cy="45" r="8" fill="#fb7185"/>
-  <circle cx="76" cy="45" r="8" fill="#fbbf24"/>
-  <circle cx="102" cy="45" r="8" fill="#4ade80"/>
-  <text x="50" y="82" class="mono" font-size="29" font-weight="800" fill="url(#titleGlow)">KUSHAL.GOWDA / PROJECT CONTROL</text>
-  <text x="50" y="106" class="mono" font-size="14" fill="#94a3b8">systems :: machine learning :: developer tools :: open source</text>
-  <rect x="779" y="48" width="171" height="36" rx="18" fill="#12243b" stroke="#38bdf8" stroke-width="1.5"/>
-  <circle cx="803" cy="66" r="6" fill="#4ade80"/>
-  <text x="820" y="71" class="mono" font-size="13" font-weight="700" fill="#bae6fd">5 ACTIVE TRACKS</text>
+  <rect width="1000" height="1040" rx="12" fill="#000000"/>
+  <path d="M30 118H970" stroke="#262626" stroke-width="2"/>
+  <rect x="42" y="31" width="52" height="44" rx="5" fill="#080808" stroke="#4ade80" stroke-width="1.5"/>
+  <text x="68" y="60" class="mono" font-size="19" font-weight="800" text-anchor="middle" fill="#4ade80">&gt;_</text>
+  <text x="112" y="61" class="mono" font-size="22" font-weight="700">
+    <tspan fill="#4ade80">kushal@linux</tspan><tspan fill="#71717a">:~/projects $</tspan><tspan fill="#f4f4f5"> ./tracker --watch</tspan>
+  </text>
+  <text x="42" y="101" class="mono" font-size="14" fill="#71717a">kernel=linux  |  shell=fish  |  tty=1  |  mode=building</text>
+  <rect x="797" y="82" width="153" height="27" rx="4" fill="#070707" stroke="#3f3f46"/>
+  <text x="873" y="100" class="mono" font-size="12" font-weight="700" text-anchor="middle" fill="#d4d4d8">[ 5 jobs active ]</text>
 
   <!-- WAS'NRT -->
   <g filter="url(#shadow)">
-    <rect x="42" y="146" width="916" height="154" rx="20" fill="#111c31" stroke="#334155"/>
+    <rect x="42" y="146" width="916" height="154" rx="10" fill="#050505" stroke="#292929"/>
     <rect x="42" y="146" width="10" height="154" rx="5" fill="#a78bfa"/>
   </g>
   <rect x="72" y="170" width="144" height="28" rx="14" fill="#2e2150"/>
@@ -47,13 +37,13 @@
   <text x="72" y="231" class="mono name">WAS'NRT</text>
   <text x="72" y="260" class="mono body">Wasmtime + direct Vulkan GPU runtime</text>
   <text x="72" y="284" class="mono next">NEXT  matched Vulkan vs native WebGPU benchmark</text>
-  <rect x="709" y="172" width="215" height="90" rx="16" fill="#191735" stroke="#6d5bd0"/>
+  <rect x="709" y="172" width="215" height="90" rx="7" fill="#090909" stroke="#6d5bd0"/>
   <text x="816" y="206" class="mono ascii" fill="#c4b5fd">[WASM]--&gt;{VK}</text>
   <text x="816" y="237" class="mono pipe" text-anchor="middle" fill="#a78bfa">CODE [x]  BENCH [~]</text>
 
   <!-- EL -->
   <g filter="url(#shadow)">
-    <rect x="42" y="320" width="916" height="154" rx="20" fill="#111c31" stroke="#334155"/>
+    <rect x="42" y="320" width="916" height="154" rx="10" fill="#050505" stroke="#292929"/>
     <rect x="42" y="320" width="10" height="154" rx="5" fill="#22d3ee"/>
   </g>
   <rect x="72" y="344" width="105" height="28" rx="14" fill="#0b3b49"/>
@@ -61,13 +51,13 @@
   <text x="72" y="405" class="mono name">3RD SEM EL</text>
   <text x="72" y="434" class="mono body">Code-clone retrieval and negative-sampling study</text>
   <text x="72" y="458" class="mono next">NEXT  record F1 + checkpoint; run BM25 and Semantic</text>
-  <rect x="709" y="346" width="215" height="90" rx="16" fill="#0c2936" stroke="#0891b2"/>
+  <rect x="709" y="346" width="215" height="90" rx="7" fill="#090909" stroke="#0891b2"/>
   <text x="816" y="380" class="mono ascii" fill="#67e8f9">[DATA]=&gt;[MODEL]</text>
   <text x="816" y="411" class="mono pipe" text-anchor="middle" fill="#22d3ee">3,675 / 4,000</text>
 
   <!-- Tide -->
   <g filter="url(#shadow)">
-    <rect x="42" y="494" width="916" height="154" rx="20" fill="#111c31" stroke="#334155"/>
+    <rect x="42" y="494" width="916" height="154" rx="10" fill="#050505" stroke="#292929"/>
     <rect x="42" y="494" width="10" height="154" rx="5" fill="#4ade80"/>
   </g>
   <rect x="72" y="518" width="168" height="28" rx="14" fill="#123a2b"/>
@@ -75,13 +65,13 @@
   <text x="72" y="579" class="mono name">TIDE TERMINAL</text>
   <text x="72" y="608" class="mono body">Terminal tabs, timers, output rules and input alerts</text>
   <text x="72" y="632" class="mono next">NEXT  release cleanup and a stable tag</text>
-  <rect x="709" y="520" width="215" height="90" rx="16" fill="#102c25" stroke="#22c55e"/>
+  <rect x="709" y="520" width="215" height="90" rx="7" fill="#090909" stroke="#22c55e"/>
   <text x="816" y="554" class="mono ascii" fill="#86efac">$ tide --ship _</text>
   <text x="816" y="585" class="mono pipe" text-anchor="middle" fill="#4ade80">INSTALL [x]  TAG [ ]</text>
 
   <!-- Halo -->
   <g filter="url(#shadow)">
-    <rect x="42" y="668" width="916" height="154" rx="20" fill="#111c31" stroke="#334155"/>
+    <rect x="42" y="668" width="916" height="154" rx="10" fill="#050505" stroke="#292929"/>
     <rect x="42" y="668" width="10" height="154" rx="5" fill="#fbbf24"/>
   </g>
   <rect x="72" y="692" width="121" height="28" rx="14" fill="#493317"/>
@@ -89,13 +79,13 @@
   <text x="72" y="753" class="mono name">HALO: DSSB</text>
   <text x="72" y="782" class="mono body">Private Discord Activity + laptop host</text>
   <text x="72" y="806" class="mono next">NEXT  finish config and pass a local end-to-end test</text>
-  <rect x="709" y="694" width="215" height="90" rx="16" fill="#332617" stroke="#d97706"/>
+  <rect x="709" y="694" width="215" height="90" rx="7" fill="#090909" stroke="#d97706"/>
   <text x="816" y="728" class="mono ascii" fill="#fcd34d">o==[HOST]==o</text>
   <text x="816" y="759" class="mono pipe" text-anchor="middle" fill="#fbbf24">CONFIG [~]  TEST [ ]</text>
 
   <!-- FFmpeg -->
   <g filter="url(#shadow)">
-    <rect x="42" y="842" width="916" height="154" rx="20" fill="#111c31" stroke="#334155"/>
+    <rect x="42" y="842" width="916" height="154" rx="10" fill="#050505" stroke="#292929"/>
     <rect x="42" y="842" width="10" height="154" rx="5" fill="#fb7185"/>
   </g>
   <rect x="72" y="866" width="201" height="28" rx="14" fill="#482333"/>
@@ -103,7 +93,7 @@
   <text x="72" y="927" class="mono name">FFMPEG CONTRIBUTIONS</text>
   <text x="72" y="956" class="mono body">libswscale optimization + portable SIMD experiments</text>
   <text x="72" y="980" class="mono next">NEXT  real cross-architecture hardware validation</text>
-  <rect x="709" y="868" width="215" height="90" rx="16" fill="#351c2b" stroke="#e11d48"/>
+  <rect x="709" y="868" width="215" height="90" rx="7" fill="#090909" stroke="#e11d48"/>
   <text x="816" y="902" class="mono ascii" fill="#fda4af">YUV =&gt; [SWS] =&gt; Y</text>
   <text x="816" y="933" class="mono pipe" text-anchor="middle" fill="#fb7185">MERGED [x]  PORT [~]</text>
 </svg>
