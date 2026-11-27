@@ -2,7 +2,7 @@
 
 Systems, machine learning, developer tools, and open-source experiments—with the evidence attached.
 
-![Colorful terminal-style tracker for five current projects](assets/project-dashboard.svg)
+![Black Linux terminal-style tracker for five current projects](assets/project-dashboard-linux-v2.svg)
 
 ## Project links
 
